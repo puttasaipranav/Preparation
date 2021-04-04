@@ -4,4 +4,4 @@ def find(input2):
         if i > high:
             high = i
     return i
-print(find([1,2,3,4,5]))
+print(find([95,568]))

@@ -1,6 +1,9 @@
 def same(input1,input2):
     for i in input1:
-        for j in input2:
-            if i == j:
-                print(i)
-print(same([1,2,3,4,5],[1,5,6,7,8]))
+        found=False
+        if i in input2:
+            print(i)
+            found=True
+    if found==False:
+        print('None')
+same([1,2,3,4,5],[1,32,2,4,7])

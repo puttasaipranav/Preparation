@@ -36,9 +36,9 @@ print("M Clicks:",mcos)
 print("T Clicks:",ncos)
 
 print("CTR's")
-print("C CPC: $",ctr)
-print("M CPC: $",mctr)
-print("T CPC: $",nctr)
+print("C CTR: $",ctr)
+print("M CTR: $",mctr)
+print("T CTR: $",nctr)
 
 lis=[]
 lis.append(ctr)
